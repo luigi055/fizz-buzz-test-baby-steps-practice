@@ -1,0 +1,22 @@
+{
+	"name": "social-network-kata",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"@types/jest": "^26.0.24",
+		"@types/node": "^16.4.13",
+		"jest": "^27.0.6",
+		"ts-jest": "^27.0.4",
+		"ts-node": "^10.2.0",
+		"typescript": "^4.3.5"
+	},
+	"scripts": {
+		"start": "npx ts-node ./src/index.ts",
+		"test": "npx jest --clearCache && npx jest",
+		"test:watch": "npm test -- --watch"
+	},
+	"author": "Pedro La Rosa",
+	"license": "ISC"
+}
